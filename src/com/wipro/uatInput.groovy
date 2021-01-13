@@ -3,7 +3,7 @@ package com.wipro
 public class uatInput {
 
   def buildIsUatApproved() {
-    def file = new File("C:/_tools/approved.txt")
+    def file = new File("/home/himanshu_kool_hk/test-lib.txt")
     
     if (file.exists()){
       return true;
